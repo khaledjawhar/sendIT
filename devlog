@@ -1,0 +1,53 @@
+Khaled Jawhar
+Task#1 Installed AndroidStudio and setup development environment,and Created Hello World Program in Android Studio(time required:3 hours)
+Task#2 Implemented file_and_user_select.xml, login_screen.xml, and register_screen.xml in the layout folder(time required:3 hours)
+Task#3 Integrated The external API(FilePicker) with our App.(time required:4 hours)
+Task#4 Implemented onCreate, processIp, showFilePicker, and readFromFile in FileAndUserSelect.java(time required:5 hours)
+Task#5 Transfered file between between 2 folders in the emulator (time required:2 hours)
+Task#5 Implemented doInBackground in IpAndPortRequest.java (time required:4 hours)
+Task#6 Implemented doInBackground in Login.java (time required:3 hours)
+Task#7 Implemented doInBackground in Register.java (time required:3 hours)
+Task#8 Implemented onCreate and processLogin in LoginSceen.java (time required:4 hours)
+Task#9 Tested the register task, login task, send request to get ipaddress and port task between 2 android devices with the server, worked on Test.java class.(time required:4 hours) 
+Task#10 Did the TCP hole punching functionality between 2 client apps and mediator ( consumed 12 hours of work till now)
+Task#11 Resolved the async issue related to opening another window in background for client socket in Android (6 hours).
+Task#12  Worked on deliverable2 conceptual architecture and Design pattern of the Project.(5 hours).
+
+
+Selasi 
+Task#1 install AndroidStudio and setup development environment   (time required:3 hours)
+Task#2 Create Hello World Program in Android Studio   (time required:30 minutes)
+Task#3 Create (login page) Text View and read Contents (time required: 1hour)
+Task#4 Created sockets, request packet format (Format=1PhoneNumber0Password0IP0) to enable communication with remote server(time required:3 hours)
+Task#5 Write unit tests for login, register, and send request both client and server side plus documentation (IN PROGRESS)
+Task#6 send file between 2 android emulators (time required: 11 hours) 
+Task#7 continue sending missing packets when connection drops (time required: 7 hours)
+
+Damjan
+Task#1 install AndroidStudio and setup development environment   (time required:3 hours)
+Task#2 Create Hello World Program in Android Studio   (time required:30 minutes)
+Task#3 Created format for reply packet from server after initial connection request(time required: 3 hours)
+Task#4 Integrate the code developed previously for login page and send file page and way they communicate with server(time required: 5 hours)
+Task#5 Co-ordinate client code with Amin's server (time required:3 hours)
+Task#6 finish the connect,register,request functionality between client app and the server(IN PROGRESS) 
+Task#7 Work on the UI and organize the code(add comments,design patterns,..)
+
+Amin
+Task#1 install AndroidStudio and setup development environment   (time required:3 hours)
+Task#2 Create Hello World Program in Android Studio   (time required:30 minutes)
+Task#3 Write a server socket code at the server listening at certain port and authenticate messages sent from android clients. Server should 
+		implements error and fail messages(time required:9 hours)
+Task#4: Server should be multithreaded with a central management thread (time required: 3 hours)
+Task#5: Server should survive a crash (time required: 2hours)
+Task#4 Co-ordinate server code with Damjan's client IN PROGRESS
+Task#5: extends the server to contain a connRegister that will manage the registration/ authentification and track connected users.
+		it should be thread safe. (7 hours)
+Task#6: Create unit testing that will test basic functionalities of Server registration/authentification. (3 hours)		
+Task #6: build protype for tcp/udp hole punching and sync with
+		khaled ( proposed the following link to read for folks http://www.brynosaurus.com/pub/net/p2pnat/)
+Task #7: Strength the server to handle any connection loss (7hours)
+Task #8: Extends unit testing to include "Request messages" and test connection flapping for the server (5 hours)
+Task #9: Add a logic that will quick out intruders to the server or a client that is making 3 bad attemps. (30min)
+Task #10: Set up the server to run on public ip address (port 5054). Ip is sent by email to the team (30 min)
+Task #11: Create timing diagram displaying for demo for a complete use case scenario (30min)
+Task#12: Implemented on the encryption side (encrypting and decrypting packets sent and received between the android apps)

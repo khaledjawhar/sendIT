@@ -1,0 +1,33 @@
+Register, Login, and Send request documentation:
+
+    REGISTER
+
+Register request packet (from client): [3, phone-number-as-bytes, 0, password-as-bytes, 0, email-address-as-bytes, 0]
+
+Register request response packet (from server): 
+    success -> [0,1] 
+    failure -> [0,2]
+
+    LOG IN
+
+Log in request packet (from client): 
+    [1, phone-number-as-bytes, 0, password-as-bytes, 0, local-ip:port-as-bytes, 0]
+    
+Log in request response packet (from server): 
+    success -> [0,1] 
+    failure -> [0,2]
+
+    SEND
+    
+Send request packet (from client): 
+    [2, phone-number-of-sender-as-bytes, 0, phone-number-of-receiver-as-bytes, 0]
+
+Send request response packet (from server): 
+    success -> [0, 1, ip:port-of-receiver-as-bytes, 0] 
+    failure -> [0,2]
+
+    FILE TRANSFER
+
+File transfer request packet (from client-client to client-server):
+    [4, file-name-as-bytes, 0, file-size-as-bytes, 0]
+    
